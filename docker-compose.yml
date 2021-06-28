@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   swaggerui:
-    container_name: appwrite-swagger-ui
+    container_name: swagger-ui
     build:
         context: .
     ports:
